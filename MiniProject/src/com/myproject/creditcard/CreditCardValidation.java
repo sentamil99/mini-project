@@ -15,7 +15,6 @@ public class CreditCardValidation {
 			cardNo[i]=Character.getNumericValue(card.charAt(i));
 		}
 		for(int i=0;i<cardNo.length;i++) {
-			
 			if(i%2==0) {
 				cardNo[i]=cardNo[i]*2;
 			}
